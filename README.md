@@ -3,12 +3,12 @@
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
-- [Run And Test](#Run And Test)
+- [Run](#Run)
 - [Benefits](#Benefits)
-- [Used By](#Used By)
-- [Address to APIS](#Address to APIS)
-- [Access to DataBase ](#Access to DataBase )
-- [Access to Swagger](#Access to Swagger)
+- [Used](#Used)
+- [APIS](#APIS)
+- [DataBase ](#DataBase )
+- [Swagger](#Swagger)
 - [Author ](#Author)
 
 
@@ -24,7 +24,7 @@ Maven: Ensure that Maven is installed to manage the project's dependencies and b
 - Second step install IDE
   - Intelij
   
-## Run And Test
+## Run
 - In another step you can Run or Debug the ManagementBankAccountsApplication
 - In another step you can test all sections of program in test Folder. there are some classes to test
 
@@ -38,12 +38,12 @@ Maven: Ensure that Maven is installed to manage the project's dependencies and b
 - Used an Idea for easily  converting entities  and DTOs
 
 
-## Used By
+## Used
 
 This project is created for the Management Bank Accounts
 
 
-## Address to APIS
+## APIS
 
 Card
 - Post : http://localhost:8080/api/card
@@ -57,7 +57,7 @@ Sender
 - Get : http://localhost:8080/api/sender
 
 
-## Access to DataBase 
+## DataBase 
 you can go to Database console H2 by following like and use these credentials :
 
 - Link : http://localhost:8080/h2-console/
@@ -68,7 +68,7 @@ you can go to Database console H2 by following like and use these credentials :
 * the value of JDBC Driver is : jdbc:h2:mem:testdb
 
 
-## Access to Swagger
+## Swagger
 
 - Link http://localhost:8080/swagger-ui/index.html?configUrl=/api-docs/swagger-config#
 

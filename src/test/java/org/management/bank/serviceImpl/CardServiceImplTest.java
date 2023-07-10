@@ -116,8 +116,6 @@ class CardServiceImplTest {
         CardDTO result = cardService.save(cardDTO);
 
         // Assert
-
-        // Assert
         assertNotNull(result);
         assertEquals(cardDTO, result);
         verify(personRepository).existsById(cardDTO.getPerson().getId());
@@ -159,7 +157,6 @@ class CardServiceImplTest {
     @Test
     @DisplayName("test Save With Non Match Six Digits SenderCode")
     void testSave_WithNonMatchSixDigitsSenderCode_ThrowsCustomException() {
-        // Arrange
         // Arrange
         CardDTO cardDTO = new CardDTO();
         cardDTO.setNameCard("3533331111111111");
